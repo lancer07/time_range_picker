@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>时间段选择控件</title>
+    <link href="calendar.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div id="calendar">
+            <table class="calendar-table">
+                <thead class="calendar-head">
+                    <tr>
+                        <th rowspan="2">星期 / 时间</th>
+                        <th colspan="24">上午</th>
+                        <th colspan="24">下午</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">0</td>
+                        <td colspan="2">1</td>
+                        <td colspan="2">2</td>
+                        <td colspan="2">3</td>
+                        <td colspan="2">4</td>
+                        <td colspan="2">5</td>
+                        <td colspan="2">6</td>
+                        <td colspan="2">7</td>
+                        <td colspan="2">8</td>
+                        <td colspan="2">9</td>
+                        <td colspan="2">10</td>
+                        <td colspan="2">11</td>
+                        <td colspan="2">12</td>
+                        <td colspan="2">13</td>
+                        <td colspan="2">14</td>
+                        <td colspan="2">15</td>
+                        <td colspan="2">16</td>
+                        <td colspan="2">17</td>
+                        <td colspan="2">18</td>
+                        <td colspan="2">19</td>
+                        <td colspan="2">20</td>
+                        <td colspan="2">21</td>
+                        <td colspan="2">22</td>
+                        <td colspan="2">23</td>
+                    </tr>
+                </thead>
+                <tbody class="calendar-body"></tbody>
+            </table>
+            <div class="calendar-moveSelected"></div>
+
+            <div>
+                <button class="calendar-reset">clean</button>
+                <button class="calendar-get">get</button>
+                <ul class="calendar-result"></ul>
+            </div>
+
+        </div>
+
+        
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+</body>
+
+</html>
+
+<script src="time_range_picker.js"></script>
